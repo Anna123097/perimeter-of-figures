@@ -1,0 +1,45 @@
+<script>
+	let kvadrat = 'x';
+	let treu = 't';
+	let h = prompt('введите x-квадрат t-треугольник', 'x');
+
+	if (h == kvadrat) {
+	 	let a = prompt('введите 1 число');
+
+		function getSq(a) {
+			return a * 4;
+		}
+
+		let res1 = getSq(a);
+		alert(res1);
+	} else if (h == treu) {
+	    let s = +prompt('введите 1 число');
+		let o = +prompt('введите 2 число');
+		let z = +prompt('введите 3 число');
+
+		function getTriangle(a, b, c) {
+			return (a + b + c);
+		}
+
+		let res1 = getTriangle(s, o, z);
+		alert(res1);
+    } else {
+		alert('error')
+    }
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
